@@ -1,1 +1,1 @@
-<!ENTITY file SYSTEM "file:///etc/passwd">
+<!ENTITY pass SYSTEM "file:///etc/passwd">
